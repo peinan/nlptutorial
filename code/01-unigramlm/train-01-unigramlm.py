@@ -4,7 +4,7 @@
 # Author: Peinan ZHANG
 # Created at: 2017-01-27
 
-import sys, cPickle as pkl
+import sys, pickle as pkl
 from collections import defaultdict
 
 def load_train_file(filepath):

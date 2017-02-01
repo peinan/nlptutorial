@@ -4,7 +4,7 @@
 # Author: Peinan ZHANG
 # Created at: 2017-01-27
 
-import sys, cPickle as pkl, math
+import sys, pickle as pkl, math
 from collections import defaultdict
 
 def load_unigram_lm(filepath, mode='plain'):
